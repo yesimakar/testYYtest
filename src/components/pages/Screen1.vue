@@ -41,6 +41,24 @@
         position="relative" id="84651000-6764-4c7e-8c96-1338f1f97706"
         v-bind:style="{'width':'100%','height':'100%','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'bold','lineHeight':'1.4','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'1px','textDecoration':'none','borderLeftWidth':'1px','borderRightWidth':'1px','horizontalHeight':'37.5347px','borderBottomWidth':'1px','borderTopLeftRadius':'4px','borderTopRightRadius':'4px','borderBottomLeftRadius':'4px','borderBottomRightRadius':'4px','zIndex':6}"/>
     </NucGroupElement>
+    <VueChartBar v-bind:styles="{}" v-bind:plugins="[]" v-bind:chartWidth="700" cssClasses="" firstLabel="Barcelona"
+      v-bind:responsive="true" v-bind:chartHeight="400"
+      v-bind:chartLabels="['January','February','March','April','May','June','July','August','September','October','November','December']"
+      legendAlign="center" secondLabel="Roma" v-bind:hasAnimation="false" v-bind:seriesColors="[]"
+      v-bind:xAxesDisplay="true" v-bind:yAxesDisplay="true"
+      v-bind:chartDatasets="[{'data':[16,20,12,-3,10,-5,39,22,30,-10,12,11],'label':'SERIES1','borderColor':'#020202','borderWidth':2,'borderRadius':20,'backgroundColor':'rgb(52,120,126)'},{'data':[20,10,-3,20,-5,20,25,-10,22,-6,10,25],'label':'SERIES2','borderColor':'#000000','borderWidth':2,'borderRadius':20,'backgroundColor':'rgb(188,226,238)'}]"
+      v-bind:legendDisplay="true" chartTitleText="Get Weather" legendPosition="top" v-bind:allSidesPadding="false"
+      chartTitleColor="black" xAxesScaleLabel="Months" yAxesScaleLabel="Temperature" firstBorderColor="#434e55"
+      v-bind:firstBorderWidth="1" legendLabelColor="black" v-bind:animationDuration="400"
+      v-bind:chartTitleDisplay="true" v-bind:chartTitlePadding="0" secondBorderColor="#badadd"
+      v-bind:secondBorderWidth="1" v-bind:legendLabelPadding="20" v-bind:legendLabelBoxWidth="40"
+      v-bind:maintainAspectRatio="false" firstBackgroundColor="#badadd" firstHoverBorderColor="#badadd"
+      secondBackgroundColor="#434e55" v-bind:xAxesGridlinesDisplay="true" v-bind:xAxesTicksBeginAtZero="true"
+      v-bind:yAxesGridlinesDisplay="true" v-bind:yAxesTicksBeginAtZero="true" secondHoverBorderColor="#434e55"
+      v-bind:xAxesScaleLabelDisplay="true" v-bind:yAxesScaleLabelDisplay="true" xAxesScaleLabelFontColor="#434e55"
+      yAxesScaleLabelFontColor="#434e55" firstHoverBackgroundColor="#badadd" secondHoverBackgroundColor="#434e55"
+      position="relative" v-bind:snapX="false" v-bind:snapY="false" id="60b5494c-427a-4291-b216-ce5d6ae8e26b"
+      v-bind:style="{'marginTop':'0px','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','zIndex':3,'height':'100%','width':'100%'}"/>
   </DropZone>
 </template>
 <script>
@@ -58,154 +76,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@media (min-width: 1024.05px){[id='649312f2-e644-42ff-8314-b829e5e23683'] {
-             display: grid; 
-             grid-template-columns: 15.46875rem 58.4375rem 26.09375rem;
-             grid-template-rows: minmax(15.46875rem, max-content) minmax(37.1875rem, max-content) minmax(33.125rem, max-content);
-          }
-[id='1ed4ad72-712c-437b-872b-3ca04b172ccc']{
-          grid-area: 2/2/3/3;
-          
-          
-          }[id='1ed4ad72-712c-437b-872b-3ca04b172ccc'] /deep/> .component-wrapper{
-             display: grid; 
-             grid-template-columns: 4.53125rem 13.203125rem 0.390625rem 16.640625rem 2.890625rem 15.15625rem 5.625rem;
-             grid-template-rows: minmax(2.34375rem, max-content) minmax(3.515625rem, max-content) minmax(4.6875rem, max-content) minmax(4.921875rem, max-content) minmax(0.859375rem, max-content) minmax(10.15625rem, max-content) minmax(10.703125rem, max-content);
-          }
-[id='905bb445-a14d-4e81-9aae-ce6813ef91f6']{
-          grid-area: 2/2/4/4;
-          font-size: Max(Min(12rem, 12px),0.9375rem);
-          
-          }
-[id='742bc6d2-627d-4830-baaf-9cf7b8966e4c']{
-          grid-area: 6/3/7/5;
-          font-size: Max(Min(12rem, 12px),0.9375rem);
-          
-          }
-[id='84651000-6764-4c7e-8c96-1338f1f97706']{
-          grid-area: 3/6/5/7;
-          font-size: Max(Min(12rem, 12px),0.9375rem);
-          
-          }}
-
-@media (min-width: 768.05px) and (max-width: 1024px){[id='649312f2-e644-42ff-8314-b829e5e23683'] {
-             display: grid; 
-             grid-template-columns: 13.4765625rem 73.046875rem 13.4765625rem;
-             grid-template-rows: minmax(19.3359375rem, max-content) minmax(46.484375rem, max-content) minmax(3.125rem, max-content);
-          }
-[id='1ed4ad72-712c-437b-872b-3ca04b172ccc']{
-          grid-area: 2/2/3/3;
-          
-          
-          }[id='1ed4ad72-712c-437b-872b-3ca04b172ccc'] /deep/> .component-wrapper{
-             display: grid; 
-             grid-template-columns: 6.34765625rem 16.9921875rem 2.5390625rem 21.2890625rem 0.5859375rem 18.9453125rem 6.34765625rem;
-             grid-template-rows: minmax(2.9296875rem, max-content) minmax(4.39453125rem, max-content) minmax(5.859375rem, max-content) minmax(6.15234375rem, max-content) minmax(1.07421875rem, max-content) minmax(12.6953125rem, max-content) minmax(13.37890625rem, max-content);
-          }
-[id='905bb445-a14d-4e81-9aae-ce6813ef91f6']{
-          grid-area: 2/2/4/3;
-          font-size: Max(Min(12rem, 12px),1.171875rem);
-          
-          }
-[id='742bc6d2-627d-4830-baaf-9cf7b8966e4c']{
-          grid-area: 6/4/7/5;
-          font-size: Max(Min(12rem, 12px),1.171875rem);
-          
-          }
-[id='84651000-6764-4c7e-8c96-1338f1f97706']{
-          grid-area: 3/6/5/7;
-          font-size: Max(Min(12rem, 12px),1.171875rem);
-          
-          }}
-
-@media (min-width: 480.05px) and (max-width: 768px){[id='649312f2-e644-42ff-8314-b829e5e23683'] {
-             display: grid; 
-             grid-template-columns: 4.166666667000001rem 91.666666666rem 4.166666667000001rem;
-             grid-template-rows: minmax(25.78125rem, max-content) minmax(58.33333333290909rem, max-content) minmax(4.166666667rem, max-content);
-          }
-[id='1ed4ad72-712c-437b-872b-3ca04b172ccc']{
-          grid-area: 2/2/3/3;
-          
-          
-          }[id='1ed4ad72-712c-437b-872b-3ca04b172ccc'] /deep/> .component-wrapper{
-             display: grid; 
-             grid-template-columns: 4.166666667rem 18.958333333175332rem 17.29166666601266rem 6.666666667050666rem 21.458333332586rem 18.958333333175325rem 4.166666667rem;
-             grid-template-rows: minmax(3.676470588208556rem, max-content) minmax(5.5147058823128345rem, max-content) minmax(7.352941176417112rem, max-content) minmax(7.720588235237968rem, max-content) minmax(1.3480392156764707rem, max-content) minmax(15.931372548903743rem, max-content) minmax(16.789215686152406rem, max-content);
-          }
-[id='905bb445-a14d-4e81-9aae-ce6813ef91f6']{
-          grid-area: 2/2/4/4;
-          font-size: Max(Min(12rem, 12px),2.4999999999439995rem);
-          
-          }
-[id='742bc6d2-627d-4830-baaf-9cf7b8966e4c']{
-          grid-area: 6/3/7/6;
-          font-size: Max(Min(12rem, 12px),2.4999999999439995rem);
-          
-          }
-[id='84651000-6764-4c7e-8c96-1338f1f97706']{
-          grid-area: 3/5/5/7;
-          font-size: Max(Min(12rem, 12px),2.4999999999439995rem);
-          
-          }}
-
-@media (min-width: 375.05px) and (max-width: 480px){[id='649312f2-e644-42ff-8314-b829e5e23683'] {
-             display: grid; 
-             grid-template-columns: 5rem 90rem 5rem;
-             grid-template-rows: minmax(41.25rem, max-content) minmax(57.27272727272727rem, max-content) minmax(5rem, max-content);
-          }
-[id='1ed4ad72-712c-437b-872b-3ca04b172ccc']{
-          grid-area: 2/2/3/3;
-          
-          
-          }[id='1ed4ad72-712c-437b-872b-3ca04b172ccc'] /deep/> .component-wrapper{
-             display: grid; 
-             grid-template-columns: 5rem 4.403669724770649rem 3.6697247706422rem 63.853211009174316rem 3.6697247706421936rem 4.4036697247706424rem 5rem;
-             grid-template-rows: minmax(3.6096256684491976rem, max-content) minmax(12.633689839572192rem, max-content) minmax(2.8877005347593583rem, max-content) minmax(14.79946524064171rem, max-content) minmax(1.3235294117647058rem, max-content) minmax(15.641711229946523rem, max-content) minmax(6.3770053475935855rem, max-content);
-          }
-[id='905bb445-a14d-4e81-9aae-ce6813ef91f6']{
-          grid-area: 2/4/3/5;
-          font-size: Max(Min(12rem, 12px),4.4036697247706424rem);
-          
-          }
-[id='742bc6d2-627d-4830-baaf-9cf7b8966e4c']{
-          grid-area: 6/2/7/7;
-          font-size: Max(Min(12rem, 12px),4.4036697247706424rem);
-          
-          }
-[id='84651000-6764-4c7e-8c96-1338f1f97706']{
-          grid-area: 4/3/5/6;
-          font-size: Max(Min(12rem, 12px),4.4036697247706424rem);
-          
-          }}
-
-@media (min-width: 0px) and (max-width: 375px){[id='649312f2-e644-42ff-8314-b829e5e23683'] {
-             display: grid; 
-             grid-template-columns: 6.4rem 87.2rem 6.4rem;
-             grid-template-rows: minmax(52.8rem, max-content) minmax(55.4909090909091rem, max-content) minmax(6.4rem, max-content);
-          }
-[id='1ed4ad72-712c-437b-872b-3ca04b172ccc']{
-          grid-area: 2/2/3/3;
-          
-          
-          }[id='1ed4ad72-712c-437b-872b-3ca04b172ccc'] /deep/> .component-wrapper{
-             display: grid; 
-             grid-template-columns: 6.4rem 4.0954128440367015rem 3.41284403669725rem 59.383486238532114rem 3.4128440366972455rem 4.0954128440367015rem 6.4rem;
-             grid-template-rows: minmax(3.4973262032085564rem, max-content) minmax(12.240641711229948rem, max-content) minmax(2.7978609625668454rem, max-content) minmax(14.33903743315508rem, max-content) minmax(1.2823529411764705rem, max-content) minmax(15.155080213903743rem, max-content) minmax(6.178609625668459rem, max-content);
-          }
-[id='905bb445-a14d-4e81-9aae-ce6813ef91f6']{
-          grid-area: 2/4/3/5;
-          font-size: Max(Min(12rem, 12px),4.095412844036698rem);
-          
-          }
-[id='742bc6d2-627d-4830-baaf-9cf7b8966e4c']{
-          grid-area: 6/2/7/7;
-          font-size: Max(Min(12rem, 12px),4.095412844036698rem);
-          
-          }
-[id='84651000-6764-4c7e-8c96-1338f1f97706']{
-          grid-area: 4/3/5/6;
-          font-size: Max(Min(12rem, 12px),4.095412844036698rem);
-          
-          }}
-</style>
+<style lang="scss" scoped>undefined</style>
